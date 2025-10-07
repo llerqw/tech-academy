@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Academy - Образовательный центр</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Tech Academy</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#courses">Курсы</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn-login">Войти</button>
+                    <button class="btn-register">Регистрация</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Начните свой путь в IT сегодня</h2>
+                    <p>Оставьте заявку и мы свяжемся с вами для консультации</p>
+                    <div class="contact-details">
+                        <p>📧 info@techacademy.ru</p>
+                        <p>📞 +7 (999) 123-45-67</p>
+                        <p>📍 Москва, ул. Технологическая, 15</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="submit.php" method="POST">
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="tel" name="phone" placeholder="Телефон">
+                        <select name="course" required>
+                            <option value="">Выберите курс</option>
+                            <option value="web">Веб-разработка</option>
+                            <option value="ai">Искусственный интеллект</option>
+                            <option value="mobile">Мобильная разработка</option>
+                            <option value="security">Кибербезопасность</option>
+                        </select>
+                        <button type="submit" class="btn-primary">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tech Academy</h3>
+                    <p>Образовательный центр подготовки IT-специалистов</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Курсы</h4>
+                    <ul>
+                        <li><a href="#">Веб-разработка</a></li>
+                        <li><a href="#">Мобильная разработка</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Кибербезопасность</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Преподаватели</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>info@techacademy.ru</p>
+                    <p>+7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tech Academy. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
